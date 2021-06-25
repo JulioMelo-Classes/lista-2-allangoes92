@@ -100,7 +100,7 @@ Assim os exercícios que faremos são os seguintes:
 6.  [X] [all/any/none_of](./all_any_none_of)
 7.  [X] [equal](./equal)
 8.  [X] [unique](./unique)
-9.  [ ] [partition](./partition)
+9.  [X] [partition](./partition)
 10. [X] [sort](./sort)
 11. [X] [rotate](./rotate)
 
