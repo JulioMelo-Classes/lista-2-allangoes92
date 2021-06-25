@@ -1,0 +1,10 @@
+^C:\USERS\ALLAN\DOWNLOADS\UFRN\TI\LINGUAGEM DE PROGRAMAÇÃO\LP1-2021.1-LISTA2-MAIN\MINMAX\BUILD\CMAKEFILES\F7570DF38102FBF2052DE392C85DFA5A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\cmake-3.19.4-win64-x64\bin\cmake.exe" "-SC:/Users/Allan/Downloads/UFRN/TI/Linguagem de Programação/LP1-2021.1-Lista2-main/minmax" "-BC:/Users/Allan/Downloads/UFRN/TI/Linguagem de Programação/LP1-2021.1-Lista2-main/minmax/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Allan/Downloads/UFRN/TI/Linguagem de Programação/LP1-2021.1-Lista2-main/minmax/build/GraalLibrary.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
