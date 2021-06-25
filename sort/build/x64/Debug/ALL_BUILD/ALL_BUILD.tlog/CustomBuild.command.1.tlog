@@ -1,0 +1,10 @@
+^C:\USERS\ALLAN\DOWNLOADS\UFRN\TI\LINGUAGEM DE PROGRAMAÇÃO\LP1-2021.1-LISTA2-MAIN\SORT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\cmake-3.19.4-win64-x64\bin\cmake.exe" "-SC:/Users/Allan/Downloads/UFRN/TI/Linguagem de Programação/LP1-2021.1-Lista2-main/sort" "-BC:/Users/Allan/Downloads/UFRN/TI/Linguagem de Programação/LP1-2021.1-Lista2-main/sort/build" --check-stamp-file "C:/Users/Allan/Downloads/UFRN/TI/Linguagem de Programação/LP1-2021.1-Lista2-main/sort/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
