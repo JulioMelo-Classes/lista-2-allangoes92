@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Allan\Downloads\UFRN\TI\Linguagem de Programação\LP1-2021.1-Lista2-main\test_manager\src\test_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Allan\Downloads\UFRN\TI\Linguagem de Programação\LP1-2021.1-Lista2-main\find_if\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Allan\Downloads\UFRN\TI\Linguagem de Programação\LP1-2021.1-Lista2-main\find_if\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A457A88D-C135-3312-8AD1-FD029E333AFB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
