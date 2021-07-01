@@ -14,6 +14,9 @@ namespace graal {
 /*! 
  * TODO: documentação no estilo doxygen
  */
+ /*
+ 80%, faltou a documentação
+ */
 template<class InputIt, class Equal>
 InputIt unique( InputIt first, InputIt last, Equal eq )
 {
@@ -31,7 +34,7 @@ InputIt unique( InputIt first, InputIt last, Equal eq )
                 right++;
                 b++;
             }
-        a++;
+        a++; //indentação!
         }
         a = left;
         b = a;

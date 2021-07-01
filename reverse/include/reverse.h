@@ -14,6 +14,9 @@ namespace graal {
 /*! 
  * TODO: documentação no estilo doxygen
  */
+ /*
+ 80%, faltou a documentação
+ */
 template < typename Itr >
 void reverse( Itr first, Itr last )
 {
